@@ -12,6 +12,7 @@ const Body = styled.div`
 `
 
 export default class Main extends Component {
+
   render() {
     return (
       <Body id='main'>
@@ -19,4 +20,5 @@ export default class Main extends Component {
       </Body>
     )
   }
+  
 }

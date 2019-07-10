@@ -10,7 +10,7 @@ const Container = styled.div`
   color: #373a3c;
   max-width: 860px;
   margin: 0 auto;
-  padding-top: 70px;
+  padding-top: 130px;
 `
 
 const Header = styled.div`
@@ -77,6 +77,7 @@ const Content = styled.div`
 `
 
 export default class Skills extends Component {
+
   render() {
     return (
       <Body id='skills'>
@@ -119,4 +120,5 @@ export default class Skills extends Component {
       </Body>
     )
   }
+  
 }

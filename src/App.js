@@ -5,8 +5,11 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import WhyMe from './components/WhyMe';
+import Footer from './components/Footer';
 
 export default class App extends Component {
+
   render() {
     return (
       <>
@@ -16,7 +19,10 @@ export default class App extends Component {
         <Skills />
         <Projects />
         <Contact />
+        <WhyMe />
+        <Footer />
       </>
     )
   }
+  
 }
