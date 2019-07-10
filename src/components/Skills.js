@@ -47,7 +47,6 @@ const Col = styled.div`
   background-color: #be2835;
   border: 1px solid #be2835;
   width: 33.33%;
-  border: 1px solid;
   text-align: center;
   margin: 2px;
   border-radius: 5px;

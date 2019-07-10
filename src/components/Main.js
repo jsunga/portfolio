@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import bg from './images/bg.jpg'
 
+//write content
+
 const Body = styled.div`
   height: 100vh;
   background-image: url(${bg});

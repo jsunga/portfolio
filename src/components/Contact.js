@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const Body = styled.div`
   height: 100vh;
-  background-color: mediumpurple;
+  background-color: white;
 `
 
 export default class Contact extends Component {
