@@ -90,15 +90,15 @@ export default class Contact extends Component {
     return (
       <Body id='contact'>
         <Container>
-          <LeftContainer>
+          <LeftContainer className='wow bounceInUp'>
             <Header>Connect with me</Header>
             <Description>Want to get in touch? I share my passion for development anywhere I can.</Description>
           </LeftContainer>
           <RightContainer>
-            <Links>
+            <Links className='wow heartBeat'>
               <a href="mailto:jawynsunga@yahoo.com" target="_top"><Image src={email} alt="socialmedia" /></a>
-              <a href="https://github.com/jsunga" target="_blank" without rel="noopener noreferrer"><Image src={github} alt="socialmedia" /></a>
-              <a href="https://www.linkedin.com/in/jsunga16/" target="_blank" without rel="noopener noreferrer"><Image src={linkedin} alt="socialmedia" /></a>
+              <a href="https://github.com/jsunga" target="_blank" rel="noopener noreferrer"><Image src={github} alt="socialmedia" /></a>
+              <a href="https://www.linkedin.com/in/jsunga16/" target="_blank" rel="noopener noreferrer"><Image src={linkedin} alt="socialmedia" /></a>
             </Links>
           </RightContainer>
         </Container>

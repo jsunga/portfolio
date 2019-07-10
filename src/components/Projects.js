@@ -61,8 +61,8 @@ export default class Projects extends Component {
       <Body id='projects'>
         <Container>
           <Header className='wow bounceInDown'>My Latest Projects</Header>
-          <Row className='wow fadeIn' data-wow-duration='2.5s'>
-            <Col>
+          <Row>
+            <Col className='wow fadeIn' data-wow-duration='1s'>
               <Card>
                 <Image src={tweeper} alt='thumbnail' />
                 <Description>
@@ -72,7 +72,7 @@ export default class Projects extends Component {
                 </Description>
               </Card>
             </Col>
-            <Col>
+            <Col className='wow fadeIn' data-wow-duration='1s' data-wow-delay='.2s'>
               <Card>
                 <Image src={gator} alt='thumbnail' />
                 <Description>
@@ -81,7 +81,7 @@ export default class Projects extends Component {
                 </Description>
               </Card>
             </Col>
-            <Col>
+            <Col className='wow fadeIn' data-wow-duration='1s' data-wow-delay='.4s'>
               <Card>
                 <Image src={flix} alt='thumbnail' />
                 <Description>
