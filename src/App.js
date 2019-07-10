@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import WOW from 'wowjs'
 import Navbar from './components/Navbar'
 import Main from './components/Main';
 import About from './components/About'
@@ -9,6 +10,11 @@ import WhyMe from './components/WhyMe';
 import Footer from './components/Footer';
 
 export default class App extends Component {
+
+  componentDidMount() {
+    const wow = new WOW.WOW()
+    wow.init()
+  }
 
   render() {
     return (

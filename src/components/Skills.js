@@ -2,15 +2,16 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 
 const Body = styled.div`
-  height: 665px;
+  height: 600px;
   background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `
 
 const Container = styled.div`
   color: #373a3c;
   max-width: 860px;
-  margin: 0 auto;
-  padding-top: 130px;
 `
 
 const Header = styled.div`

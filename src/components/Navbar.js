@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Link } from 'react-scroll'
-import WOW from 'wowjs'
 import styled from 'styled-components'
 
 const Body = styled.div`
@@ -36,11 +35,6 @@ const Item = styled.li`
 
 export default class Navbar extends Component {
 
-  componentDidMount() {
-    const wow = new WOW.WOW()
-    wow.init()
-  }
-
   render() {
     return (
       <Body>
@@ -52,7 +46,7 @@ export default class Navbar extends Component {
             smooth={true}
             offset={0}
             duration={500}
-          ><Item className="wow bounceInRight">HOME</Item></Link>
+          ><Item >HOME</Item></Link>
           <Link
             activeClass='active'
             to='about'
@@ -60,7 +54,7 @@ export default class Navbar extends Component {
             smooth={true}
             offset={0}
             duration={500}
-          ><Item className="wow bounceInRight" data-wow-delay=".1s">ABOUT ME</Item></Link>
+          ><Item>ABOUT ME</Item></Link>
           <Link
             activeClass='active'
             to='skills'
@@ -68,7 +62,7 @@ export default class Navbar extends Component {
             smooth={true}
             offset={0}
             duration={500}
-          ><Item className="wow bounceInRight" data-wow-delay=".2s">SKILLS</Item></Link>
+          ><Item>SKILLS</Item></Link>
           <Link
             activeClass='active'
             to='projects'
@@ -76,7 +70,7 @@ export default class Navbar extends Component {
             smooth={true}
             offset={0}
             duration={500}
-          ><Item className="wow bounceInRight" data-wow-delay=".3s">PROJECTS</Item></Link>
+          ><Item>PROJECTS</Item></Link>
           <Link
             activeClass='active'
             to='contact'
@@ -84,8 +78,8 @@ export default class Navbar extends Component {
             smooth={true}
             offset={0}
             duration={500}
-          ><Item className="wow bounceInRight" data-wow-delay=".4s">CONTACT ME</Item></Link>
-          <Item className="wow bounceInRight" data-wow-delay=".5s">RESUME</Item>
+          ><Item>CONTACT ME</Item></Link>
+          <Item>RESUME</Item>
         </Nav>
       </Body>
     )
