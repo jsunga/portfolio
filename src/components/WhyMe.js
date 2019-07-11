@@ -6,19 +6,25 @@ import code from './images/code.png'
 
 const Body = styled.div`
   background-color: #f6f6f6;
+
+  @media (min-width: 768px) {
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width: 768px) {
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
 `
 
 const Container = styled.div`
   color: #373a3c;
   max-width: 1200px;
-  margin: 0 auto;
-  padding-top: 30px;
-  padding-bottom: 20px;
-
-  @media (min-width: 768px) {
-    height: 450px;
-    padding-top: 150px;
-  }
+  margin-left: 15px;
+  margin-right: 15px;
 `
 
 const Header = styled.div`
@@ -28,15 +34,18 @@ const Header = styled.div`
   border-bottom: 1px solid #d4d4d4;
   padding-bottom: 15px;
   width: 350px;
-  margin: 0 auto;
+  margin: 0 auto
 `
 
 const Intro = styled.div`
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   text-align: center;
-  padding: 15px;
-  margin-bottom: 10px;
+  padding-top: 15px;
+
+  @media (min-width: 768px) {
+    padding: 15px;
+  }
 `
 
 const Wrapper = styled.div`
@@ -47,11 +56,14 @@ const Wrapper = styled.div`
 
 const Content = styled.div`
   font-family: 'Source Sans Pro', sans-serif;
-  padding-bottom: 30px;
 
   @media (min-width: 768px) {
     width: 33.33%;
     padding: 5px;
+  }
+
+  @media (max-width: 768px) {
+    padding-top: 30px;
   }
 `
 
@@ -65,38 +77,30 @@ const Description = styled.div`
   text-align: center;
 `
 
-const IconContainer = styled.div`
-  text-align: center;
-`
-
-const Icon = styled.img`
-  
-`
-
 export default class WhyMe extends Component {
 
   render() {
     return (
       <Body>
         <Container>
-          <Header className='wow zoomIn'>Why work with me?</Header>
-          <Intro className='wow zoomIn'>There are many advantages to working with me. Here are a few:</Intro>
+          <Header className='wow zoomIn' data-wow-duration='2s'>Why work with me?</Header>
+          <Intro className='wow zoomIn' data-wow-duration='2s'>There are many advantages to working with me. Here are a few:</Intro>
           <Wrapper>
-            <Content className='wow fadeIn'>
-              <IconContainer><Icon src={code} alt='icon' /></IconContainer>
+            <Content className='wow fadeIn' data-wow-duration='1s'>
+              <Description><img src={code} alt='icon' /></Description>
               <Title>Passionate about development</Title>
-              <Description>Big believer in the fact that the greatest work is done by passionate people</Description>
+              <Description>Big believer in the fact that the greatest work is done by passionate people.</Description>
             </Content>
-            <Content className='wow fadeIn' data-wow-delay='.2s'>
-              <IconContainer><Icon src={book} alt='icon' /></IconContainer>
+            <Content className='wow fadeIn' data-wow-delay='.5s' data-wow-duration='1s'>
+              <Description><img src={book} alt='icon' /></Description>
               <Title>Quick learner</Title>
               <Description>
                 Confident in my ability to learn something new and put it into production. 
                 Thrive in fast-paced and competitive environments.
               </Description>
             </Content>
-            <Content className='wow fadeIn' data-wow-delay='.4s'>
-              <IconContainer><Icon src={adapt} alt='icon' /></IconContainer>
+            <Content className='wow fadeIn' data-wow-delay='1s' data-wow-duration='1s'>
+              <Description><img src={adapt} alt='icon' /></Description>
               <Title>Adaptable</Title>
               <Description>
                 Always excited to learn new things. The most valuable thing I can provide to your 
