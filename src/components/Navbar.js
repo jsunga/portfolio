@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { Link } from 'react-scroll'
 import styled from 'styled-components'
+import download from './images/download.png'
+import resume from './resume/jay-sunga-resume.pdf'
 
 const Body = styled.div`
   height: 55px;
@@ -31,6 +33,12 @@ const Item = styled.li`
     color: #cfcfcf;
     cursor: pointer;
   }
+`
+
+const Image = styled.img`
+  width: 18px;
+  height: 18px;
+  padding-left: 5px;
 `
 
 export default class Navbar extends Component {
@@ -79,7 +87,12 @@ export default class Navbar extends Component {
             offset={0}
             duration={500}
           ><Item>CONTACT ME</Item></Link>
-          <Item>RESUME</Item>
+          <a href={resume} style={{textDecoration: 'none'}} download='Jay Sunga Resume'>
+            <Item>
+              RESUME 
+              <Image src={download} alt="icon" />
+            </Item>
+          </a>
         </Nav>
       </Body>
     )
