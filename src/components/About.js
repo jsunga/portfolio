@@ -147,7 +147,7 @@ export default class About extends Component {
             <Description>
               I enjoy spending my free time increasing my knowledge of 
               Web Development and building new and challenging projects
-              with tools like React and Django.
+              with frameworks and libraries like React and Django.
             </Description>
             <Link
               activeClass='active'

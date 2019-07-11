@@ -70,7 +70,7 @@ export default class Footer extends Component {
               company special.
             </Description>
             <Description>
-              I code everyday and try to learn more popular technologies by taking Udemy online courses.
+              I code every day and try to learn more popular technologies by taking Udemy online courses.
             </Description>
             <Description>
               I want to make things that make a difference, and that is why I'm thriving to make a big impact 
