@@ -138,7 +138,7 @@ export default class Navbar extends Component {
             offset={0}
             duration={500}
           ><Item>CONTACT ME</Item></Link>
-          <a href={resume} style={{textDecoration: 'none'}} download='Jay Sunga Resume'>
+          <a href={resume} style={{textDecoration: 'none'}} download='jay-sunga-resume'>
             <Item>
               RESUME 
               <Image src={download} alt="icon" />
@@ -193,7 +193,7 @@ export default class Navbar extends Component {
             duration={500}
             onClick={() => this.setState({menu: false})}
           ><ListItem>CONTACT ME</ListItem></Link>
-          <a href={resume} style={{textDecoration: 'none'}} download='Jay Sunga Resume'>
+          <a href={resume} style={{textDecoration: 'none'}} download='jay-sunga-resume'>
             <ListItem>RESUME <Image src={download} alt="icon" /></ListItem>
           </a>
         </List>
