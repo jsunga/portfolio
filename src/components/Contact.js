@@ -5,34 +5,46 @@ import github from './images/github.png'
 import email from './images/email.png'
 
 const Body = styled.div`
-  height: 330px;
   background-color: white;
+
+  @media (min-width: 768px) {
+    height: 330px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  @media (max-width: 768px) {
+    padding-bottom: 65px;
+    padding-top: 65px;
+  }
 `
 
 const Container = styled.div`
-  @media (min-width: 1080px) {
+  @media (min-width: 768px) {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    flex-direction: row;
-    padding-top: 110px;
-  }
-
-  @media (max-width: 1080px) {
-    padding-top: 55px;
   }
 `
 
 const LeftContainer = styled.div`
   color: #373a3c;
 
-  @media (min-width: 1080px) {
+  @media (min-width: 768px) {
     width: 50%;
+  }
+
+  @media (max-width: 768px) {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 `
 
 const RightContainer = styled.div`
-  @media (min-width: 1080px) {
+  @media (min-width: 768px) {
     width: 50%;
   }
 `
@@ -40,21 +52,15 @@ const RightContainer = styled.div`
 const Header = styled.div`
   font-family: 'Roboto', sans-serif;
   font-size: 29px;
+  width: 60%;
+  border-bottom: 1px solid #d4d4d4;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 
-  @media (min-width: 1080px) {
-    width: 50%;
-    border-bottom: 1px solid #d4d4d4;
-    margin: 10px;
-    padding-bottom: 10px;
-  }
-
-  @media (max-width: 1080px) {
+  @media (max-width: 768px) {
     text-align: center;
-    padding: 10px;
-    width: 50%;
     margin: 0 auto;
-    border-bottom: 1px solid #d4d4d4;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
 `
 
@@ -63,26 +69,24 @@ const Description = styled.div`
   font-size: 16px;
   padding-bottom: 10px;
 
-  @media (min-width: 1080px) {
-    padding-left: 10px;
-  }
-
-  @media (max-width: 1080px) {
+  @media (max-width: 768px) {
     text-align: center;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 `
 
 const Links = styled.div`
   width: 300px;
   margin: 0 auto;
+
+  @media (min-width: 768px) {
+    float: right;
+  }
 `
 
 const Image = styled.img`
   width: 80px;
   height: 80px;
-  padding: 10px;
+  padding: 5px 10px 5px 10px;
 `
 
 export default class Contact extends Component {

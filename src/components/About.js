@@ -3,8 +3,6 @@ import { Link } from 'react-scroll'
 import styled from 'styled-components'
 import img from './images/web.png'
 
-//link to footer
-
 const Body = styled.div`
   background-color: #f6f6f6;
 
@@ -16,17 +14,12 @@ const Body = styled.div`
     padding-left: 50px;
     padding-right: 50px;
   }
-
-  @media (max-width: 768px) {
-
-  }
 `
 
 const Container = styled.div`
   @media (min-width: 768px) {
     max-width: 1200px;
     display: flex;
-    flex-direction: row;
   }
 
   @media (max-width: 768px) {
@@ -74,10 +67,10 @@ const Image = styled.img`
 const Header = styled.div`
   font-family: 'Roboto', sans-serif;
   font-size: 29px;
+  border-bottom: 1px solid #d4d4d4;
 
   @media (min-width: 768px) {
     width: 50%;
-    border-bottom: 1px solid #d4d4d4;
     padding-bottom: 10px;
   }
   
@@ -85,7 +78,6 @@ const Header = styled.div`
     text-align: center;
     width: 40%;
     margin: 0 auto;
-    border-bottom: 1px solid #d4d4d4;
     margin-bottom: 15px;
     padding: 10px;
   }
@@ -94,14 +86,10 @@ const Header = styled.div`
 const Intro = styled.div`
   font-family: 'Poppins', sans-serif;
   font-size: 19px;
+  padding-bottom: 10px;
 
-  @media (min-width: 768px) {
-    padding-bottom: 10px;
-  }
-  
   @media (max-width: 768px) {
     text-align: center;
-    padding-bottom: 10px;
   }
 `
 
