@@ -87,6 +87,10 @@ const Image = styled.img`
   width: 80px;
   height: 80px;
   padding: 5px 10px 5px 10px;
+
+  &:hover {
+    opacity: 0.8;
+  }
 `
 
 export default class Contact extends Component {

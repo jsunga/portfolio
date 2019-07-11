@@ -26,7 +26,7 @@ const Header = styled.div`
 
 const Intro = styled.div`
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
   padding: 15px;
 `

@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
+import { Link } from 'react-scroll'
 import styled from 'styled-components'
 import bg from './images/bg.jpg'
 
-//write content
-
 const Body = styled.div`
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(${bg});
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(${bg});
   background-size: cover;
   background-position: center;
   display: flex;
@@ -135,22 +134,29 @@ export default class Main extends Component {
       <Body id='main'>
         <Container>
           <LeftContainer>
-            <Header>Hello, I'm <Span>Jay Sunga</Span>.</Header>
-            <Intro>I'm a full-stack web developer.</Intro>
-            <Title>PEOPLE WORK BETTER TOGETHER</Title>
-            <Quote>
+            <Header className='wow fadeIn' data-wow-duration='2s'>Hello, I'm <Span>Jay Sunga</Span>.</Header>
+            <Intro className='wow fadeIn' data-wow-duration='2s' data-wow-delay='.2s'>I'm a full-stack web developer.</Intro>
+            <Title className='wow fadeIn' data-wow-duration='2s' data-wow-delay='.4s'>PEOPLE WORK BETTER TOGETHER</Title>
+            <Quote className='wow fadeIn' data-wow-duration='2s' data-wow-delay='.6s'>
               The power of one, if fearless and focused, is formidable, 
               but the power of many working together is better.
             </Quote>
-            <Author>- Gloria Macapagal Arroyo</Author>
+            <Author className='wow fadeIn' data-wow-duration='2s' data-wow-delay='.6s'>- Gloria Macapagal Arroyo</Author>
           </LeftContainer>
-          <RightContainer>
+          <RightContainer className='wow fadeIn' data-wow-duration='2s'>
             <Box>
               <Content>
                 Want to work with me? I want to make things 
                 that make a difference.
               </Content>
-              <Button>Get in touch</Button>
+              <Link
+                activeClass='active'
+                to='contact'
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+              ><Button>Get in touch</Button></Link>
             </Box>
           </RightContainer>
         </Container>

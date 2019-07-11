@@ -68,6 +68,7 @@ const Header = styled.div`
   font-family: 'Roboto', sans-serif;
   font-size: 29px;
   border-bottom: 1px solid #d4d4d4;
+  margin-bottom: 10px;
 
   @media (min-width: 768px) {
     width: 50%;
@@ -78,7 +79,7 @@ const Header = styled.div`
     text-align: center;
     width: 40%;
     margin: 0 auto;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     padding: 10px;
   }
 `
@@ -95,7 +96,7 @@ const Intro = styled.div`
 
 const Description = styled.div`
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 17px;
+  font-size: 18px;
 
   @media (max-width: 768px) {
     text-align: center;
