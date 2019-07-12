@@ -105,7 +105,7 @@ export default class Contact extends Component {
           </LeftContainer>
           <RightContainer>
             <Links className='wow heartBeat' data-wow-duration='2s'>
-              <a href="mailto:jawynsunga@yahoo.com" target="_top"><Image src={email} alt="socialmedia" /></a>
+              <a href="mailto:jptsunga@gmail.com" target="_top"><Image src={email} alt="socialmedia" /></a>
               <a href="https://github.com/jsunga" target="_blank" rel="noopener noreferrer"><Image src={github} alt="socialmedia" /></a>
               <a href="https://www.linkedin.com/in/jsunga16/" target="_blank" rel="noopener noreferrer"><Image src={linkedin} alt="socialmedia" /></a>
             </Links>

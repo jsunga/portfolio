@@ -134,7 +134,7 @@ export default class Main extends Component {
       <Body id='main'>
         <Container>
           <LeftContainer>
-            <Header className='wow fadeIn' data-wow-duration='2s'>Hello, I'm <Span>Jay Sunga</Span>.</Header>
+            <Header className='wow fadeIn' data-wow-duration='2s'>Hello, I'm <Span>Jawyn</Span>.</Header>
             <Intro className='wow fadeIn' data-wow-duration='2s' data-wow-delay='.2s'>I'm a full-stack web developer.</Intro>
             <Title className='wow fadeIn' data-wow-duration='2s' data-wow-delay='.4s'>PEOPLE WORK BETTER TOGETHER</Title>
             <Quote className='wow fadeIn' data-wow-duration='2s' data-wow-delay='.6s'>

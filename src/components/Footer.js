@@ -62,8 +62,8 @@ export default class Footer extends Component {
       <Body id='footer'>
         <Container className='wow fadeInUp'>
           <About>
-            <Header>About JAY</Header>
-            <Description>Hello there! My name is Jay Sunga and I'm a Full Stack Developer.</Description>
+            <Header>About JAWYN</Header>
+            <Description>Hello there! My name is Jawyn Sunga and I'm a Full Stack Developer.</Description>
             <Description>
               I am a recent graduate from San Francisco State University who is eager for opportunities and improve my technical skill. 
               Passionate in learning new things especially the skills and technologies that make your 
@@ -76,11 +76,11 @@ export default class Footer extends Component {
               I want to make things that make a difference, and that is why I'm thriving to make a big impact 
               at a high growth company.
             </Description>
-            <Description style={{fontSize: '14px'}}>© 2019 Jay Sunga</Description>
+            <Description style={{fontSize: '14px'}}>© 2019 Jawyn Sunga</Description>
           </About>
           <Contact>
             <Header>Say Hello:</Header>
-            <Description>Email: jawynsunga@yahoo.com</Description>
+            <Description>Email: jptsunga@gmail.com</Description>
             <Description><Tag href="https://github.com/jsunga" target="_blank" rel="noopener noreferrer">GitHub: www.github.com/jsunga</Tag></Description>
             <Description><Tag href="https://www.linkedin.com/in/jsunga16/" target="_blank" rel="noopener noreferrer">LinkedIn: www.linkedin.com/in/jsunga16</Tag></Description>
             <Description>Phone: (650) 278-7449</Description>
