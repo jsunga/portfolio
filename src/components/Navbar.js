@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-scroll'
 import styled from 'styled-components'
 import download from './images/download.png'
-import resume from './resume/jay-sunga-resume.pdf'
+import resume from './resume/Jawyn_Sunga_Resume.pdf'
 import menu from './images/menu.png'
 
 const Body = styled.div`
@@ -138,7 +138,7 @@ export default class Navbar extends Component {
             offset={0}
             duration={500}
           ><Item>CONTACT ME</Item></Link>
-          <a href={resume} style={{textDecoration: 'none'}} download='jay-sunga-resume'>
+          <a href={resume} style={{textDecoration: 'none'}} download='Jawyn_Sunga_Resume'>
             <Item>
               RESUME 
               <Image src={download} alt="icon" />
@@ -193,7 +193,7 @@ export default class Navbar extends Component {
             duration={500}
             onClick={() => this.setState({menu: false})}
           ><ListItem>CONTACT ME</ListItem></Link>
-          <a href={resume} style={{textDecoration: 'none'}} download='jay-sunga-resume'>
+          <a href={resume} style={{textDecoration: 'none'}} download='Jawyn_Sunga_Resume'>
             <ListItem>RESUME <Image src={download} alt="icon" /></ListItem>
           </a>
         </List>
