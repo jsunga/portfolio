@@ -65,7 +65,7 @@ export default class Footer extends Component {
             <Header>About JAWYN</Header>
             <Description>Hello there! My name is Jawyn Sunga and I'm a Full Stack Developer.</Description>
             <Description>
-              I am a recent graduate from San Francisco State University who is eager for opportunities and improve my technical skill. 
+              I am a recent graduate from San Francisco State University who is eager for opportunities and excited to improve my technical skills. 
               Passionate in learning new things especially the skills and technologies that make your 
               company special.
             </Description>

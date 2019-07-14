@@ -90,8 +90,8 @@ export default class Skills extends Component {
           </Intro>
           <Wrapper>
             <Row>
-              <Col>HTML</Col>
-              <Col>CSS</Col>
+              <Col>HTML5</Col>
+              <Col>CSS3</Col>
               <Col>Sass</Col>
             </Row>
             <Row>
@@ -107,14 +107,14 @@ export default class Skills extends Component {
             </Row>
             <Row>
               <Content>Django</Content>
-              <Content>Rails</Content>
+              <Content>REST APIs</Content>
               <Content>SQL</Content>
               <Content>NoSQL</Content>
             </Row>
             <Row>
               <Col>Git</Col>
               <Col>Linux</Col>
-              <Col>Microservices</Col>
+              <Col>API Development</Col>
             </Row>
           </Wrapper>
         </Container>

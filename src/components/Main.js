@@ -2,10 +2,11 @@ import React, { Component } from 'react'
 import { Link } from 'react-scroll'
 import styled from 'styled-components'
 import bg from './images/bg.jpg'
+import testbg from './images/testbg.jpg'
 
 const Body = styled.div`
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(${bg});
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(${testbg});
   background-size: cover;
   background-position: center;
   display: flex;

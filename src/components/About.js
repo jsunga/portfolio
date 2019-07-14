@@ -143,11 +143,11 @@ export default class About extends Component {
         <Container>
           <Who className="wow fadeInLeft">
             <Header>Who am I...</Header>
-            <Intro>Hi there! My name is Jawyn Sunga and I am a Full Stack Developer</Intro>
+            <Intro>Hi there! My name is Jawyn Sunga.</Intro>
             <Description>
               I enjoy spending my free time increasing my knowledge of 
               Web Development and building new and challenging projects
-              with frameworks and libraries like React and Django.
+              with technologies like React, Node, Express, and Django.
             </Description>
             <Link
               activeClass='active'
