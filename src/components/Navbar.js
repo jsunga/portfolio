@@ -61,6 +61,7 @@ const MenuIcon = styled.img`
 `
 
 const List = styled.div`
+  z-index: 1000;
   position: fixed;
   background-color: rgba(21,31,33,0.5);
   margin-top: 55px;

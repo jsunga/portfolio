@@ -7,8 +7,8 @@ const Body = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 
   @media (min-width: 768px) {
     height: 600px;

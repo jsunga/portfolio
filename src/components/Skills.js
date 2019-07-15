@@ -7,6 +7,8 @@ const Body = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 `
 
 const Container = styled.div`
@@ -114,7 +116,7 @@ export default class Skills extends Component {
             <Row>
               <Col>Git</Col>
               <Col>Linux</Col>
-              <Col>API Development</Col>
+              <Col>Docker</Col>
             </Row>
           </Wrapper>
         </Container>

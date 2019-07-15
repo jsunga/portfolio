@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-scroll'
 import styled from 'styled-components'
-import bg from './images/bg.jpg'
 import testbg from './images/testbg.jpg'
 
 const Body = styled.div`

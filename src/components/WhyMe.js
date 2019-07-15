@@ -15,8 +15,8 @@ const Body = styled.div`
   }
 
   @media (max-width: 768px) {
-    padding-top: 65px;
-    padding-bottom: 65px;
+    padding-top: 75px;
+    padding-bottom: 75px;
   }
 `
 
