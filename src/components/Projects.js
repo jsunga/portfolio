@@ -4,8 +4,7 @@ import flix from './images/flix.png'
 import gator from './images/gator.png'
 import tweeper from './images/tweeper.png'
 import eye from './images/eye.png'
-
-//responsive layout
+import skyla from './images/skyla.jpg'
 
 const Body = styled.div`
   background-color: #f6f6f6;
@@ -173,6 +172,29 @@ export default class Projects extends Component {
                   on movies playing in theaters.
                 </Description>
               </Card>
+            </Col>
+          </Row>
+          <Row>
+            <Col className='wow fadeIn' data-wow-duration='1s'>
+              <Card>
+                <a href="https://github.com/jsunga/Skyla-Fitness" target="_blank" rel="noopener noreferrer">
+                <ImageContainer>
+                  <Image src={skyla} alt='thumbnail' />
+                  <Overlay>
+                    <Icon src={eye} alt='icon' />
+                  </Overlay>
+                </ImageContainer>
+                </a>
+                <Description>
+                  An upcoming fitness gym chain that takes pride in having 
+                  multiple great plans for varying fitness goals and 
+                  passionate trainers.
+                </Description>
+              </Card>
+            </Col>
+            <Col className='wow fadeIn' data-wow-duration='1s' style={{backgroundColor: '#F6F6F6', border: 'none'}}>
+            </Col>
+            <Col className='wow fadeIn' data-wow-duration='1s' style={{backgroundColor: '#F6F6F6', border: 'none'}}>
             </Col>
           </Row>
         </Container>
