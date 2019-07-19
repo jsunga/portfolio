@@ -5,6 +5,7 @@ import gator from './images/gator.png'
 import tweeper from './images/tweeper.png'
 import eye from './images/eye.png'
 import skyla from './images/skyla.jpg'
+import foodieland from './images/foodieland.png'
 
 const Body = styled.div`
   background-color: #f6f6f6;
@@ -192,7 +193,20 @@ export default class Projects extends Component {
                 </Description>
               </Card>
             </Col>
-            <Col className='wow fadeIn' data-wow-duration='1s' style={{backgroundColor: '#F6F6F6', border: 'none'}}>
+            <Col className='wow fadeIn' data-wow-duration='1s' data-wow-delay='.2s'>
+              <Card>
+                <a href="https://github.com/jsunga/Foodie-Land" target="_blank" rel="noopener noreferrer">
+                <ImageContainer>
+                  <Image src={foodieland} alt='thumbnail' />
+                  <Overlay>
+                    <Icon src={eye} alt='icon' />
+                  </Overlay>
+                </ImageContainer>
+                </a>
+                <Description>
+                  Search over 1,000,000 recipes for ingredients, instructions, and full articles.
+                </Description>
+              </Card>
             </Col>
             <Col className='wow fadeIn' data-wow-duration='1s' style={{backgroundColor: '#F6F6F6', border: 'none'}}>
             </Col>
