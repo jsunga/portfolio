@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import flix from './images/flix.png'
+import flix from './images/flix.jpg'
 import gator from './images/gator.png'
 import tweeper from './images/tweeper.png'
 import eye from './images/eye.png'
@@ -160,7 +160,7 @@ export default class Projects extends Component {
             </Col>
             <Col className='wow fadeIn' data-wow-duration='1s' data-wow-delay='.4s'>
               <Card>
-                <a href="https://github.com/jsunga/Flix-Reviews" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/jsunga/Rotten-Apples" target="_blank" rel="noopener noreferrer">
                 <ImageContainer>
                   <Image src={flix} alt='thumbnail' />
                   <Overlay>
@@ -169,8 +169,8 @@ export default class Projects extends Component {
                 </ImageContainer>
                 </a>
                 <Description>
-                  Browse your favorite and popular movies. Rate and write your casual review 
-                  on movies playing in theaters.
+                  React application to browse popular movies 
+                  and TV shows.
                 </Description>
               </Card>
             </Col>
