@@ -13,7 +13,7 @@ const Body = styled.div`
   padding-right: 10px;
 
   @media (min-width: 768px) {
-    height: 100vh;
+    min-height: 100vh;
   }
 `
 
