@@ -12,10 +12,10 @@ const Projects = () => {
     
     return (
         <div className='projects'>
-            <h1>PROJECTS</h1><span />
+            <h1 className='wow fadeInRight'>PROJECTS</h1><span className='wow fadeIn' data-wow-duration='2s' data-wow-delay='.5s' />
             <div className='container'>
                 <div className='row'>
-                    <div className='col'>
+                    <div className='col wow fadeInUp'>
                         <h2>Twitter Clone</h2>
                         <a href="http://13.52.178.103/" target="_blank" rel="noopener noreferrer">
                         <div className='image-container'>
@@ -31,7 +31,7 @@ const Projects = () => {
                             and join the conversation.
                         </p>
                     </div>
-                    <div className='col'>
+                    <div className='col wow fadeInUp' data-wow-delay='.2s'>
                         <h2>Real Estate</h2>
                         <a href="http://13.57.19.213/search/?queue=" target="_blank" rel="noopener noreferrer">
                         <div className='image-container'>
@@ -46,7 +46,7 @@ const Projects = () => {
                             offering a place to rent near SFSU.
                         </p>
                     </div>
-                    <div className='col'>
+                    <div className='col wow fadeInUp' data-wow-delay='.4s'>
                         <h2>Movies & TV Shows</h2>
                         <a href="https://jsunga.github.io/Rotten-Apples/#/movies" target="_blank" rel="noopener noreferrer">
                         <div className='image-container'>
@@ -63,7 +63,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className='row'>
-                    <div className='col'>
+                    <div className='col wow fadeInUp' data-wow-delay='.6s'>
                         <h2>Recipes</h2>
                         <a href="https://jsunga.github.io/Foodie-Land/" target="_blank" rel="noopener noreferrer">
                         <div className='image-container'>
@@ -77,7 +77,7 @@ const Projects = () => {
                             Search over 1,000,000 recipes for ingredients, instructions, and full articles.
                         </p>
                     </div>
-                    <div className='col'>
+                    <div className='col wow fadeInUp' data-wow-delay='.8s'>
                         <h2>Food & Workout Tracker</h2>
                         <a href="https://github.com/jsunga/DiaryHub" target="_blank" rel="noopener noreferrer">
                         <div className='image-container'>
@@ -92,7 +92,7 @@ const Projects = () => {
                             workouts, and measurements.
                         </p>
                     </div>
-                    <div className='col'>
+                    <div className='col wow fadeInUp' data-wow-delay='1s'>
                         <h2>Skyla Fitness</h2>
                         <a href="https://jsunga.github.io/Skyla-Fitness/#/" target="_blank" rel="noopener noreferrer">
                         <div className='image-container'>

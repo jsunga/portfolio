@@ -26,9 +26,9 @@ const About = () => {
 
     return (
         <div className='about' id='about'>
-            <h1 className='about-title'>ABOUT</h1><span className='underline' />
+            <h1 className='about-title wow fadeInLeft'>ABOUT</h1><span className='underline wow fadeIn' data-wow-duration='2s' data-wow-delay='.5s' />
             <main>
-                <section>
+                <section className='wow fadeInLeft'>
                     <h1 className='about-title'>Who am I?</h1>
                     <p className='about-para'>
                         My name is Jawyn Sunga, and I'm a Software Developer.
@@ -38,7 +38,7 @@ const About = () => {
                         and Express.js.
                     </p>
                 </section>
-                <section className='skills'>
+                <section className='skills wow fadeInRight'>
                     <SkillBar skills={skills} colors={colors} animationDelay={1} animationDuration={1500}/>
                 </section>
             </main>
