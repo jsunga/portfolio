@@ -1,0 +1,32 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+    height: 45px;
+    width: 100%;
+    background-color: rgba(21,31,33,0.3);
+    border-bottom: 1px solid #dedede;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        height: 42px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    li {
+        font-family: 'Manjari', sans-serif;
+        color: white;
+        display: inline;
+        font-size: 17px;
+        padding: 0px 30px;
+
+        &:hover {
+          color: #cfcfcf;
+          cursor: pointer;
+        }
+    }
+}

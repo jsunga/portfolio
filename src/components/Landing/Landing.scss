@@ -1,0 +1,43 @@
+.landing {
+    background-image: linear-gradient(to top right, #9AC47A, #55A29E, #4563B2);
+    background-attachment: fixed;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .particles {
+        position: fixed;
+    }
+
+    h1 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        text-align: center;
+        color: white;
+        margin: 0;
+        transform: translate(0px, -50px);
+    }
+
+    .link {
+        z-index: 1;
+    }
+
+    span {
+        font-family: 'Manjari', sans-serif;
+        background-color: transparent;
+        border: 1px solid white;
+        font-size: 18px;
+        color: white;
+        padding: 15px 60px 12px 60px;
+        transition: .8s;
+
+        &:hover {
+            background-color: white;
+            color: #55A29D;
+            cursor: pointer;
+        }
+    }
+}

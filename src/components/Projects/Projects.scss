@@ -1,0 +1,102 @@
+.projects {
+    background-color: #f6f6f6;
+    padding: 65px 10px 45px 10px;
+
+    h1 {
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        color: #45474A;
+        font-size: 40px;
+        margin: 0;
+        margin-bottom: 5px;
+    }
+ 
+    span {
+        border-top: 4px solid;
+        color: #45474A;
+        display: block;
+        margin: 0 auto;
+        width: 70px;
+        margin-bottom: 75px;
+    }
+
+    .container {
+        @media (min-width: 768px) {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+    }
+
+    .row {
+        @media (min-width: 768px) {
+            display: flex;
+        }
+    }
+
+    h2 {
+        font-family: 'Manjari', sans-serif;
+        margin: 0;
+        padding-bottom: 10px;
+        text-align: center;
+        background-color: #f6f6f6;
+        color: #45474A;
+    }
+
+    .col {
+        background-color: white;
+        margin-bottom: 35px;
+
+        @media (min-width: 768px) {
+            margin: 0 10px;
+            margin-bottom: 35px;
+        }
+
+        .image-container {
+            position: relative;
+
+            .thumbnail {
+                width: 100%;
+                height: 100%;
+                border-bottom: 1px #e8e8e8 solid;
+            }
+
+            .overlay {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 100%;
+                width: 100%;
+                opacity: 0;
+                transition: .5s ease;
+                background-color: rgba(0, 0, 0, .3);
+
+                &:hover {
+                  opacity: 1;
+                }
+
+                .icon {
+                    width: 50px;
+                    height: 50px;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    -webkit-transform: translate(-50%, -50%);
+                    -ms-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+                    text-align: center;
+                }
+            }
+        }
+
+        p {
+            margin: 0;
+            padding: 0;
+            padding: 10px;
+            font-family: 'Manjari', sans-serif;
+            font-size: 18px;
+            color: #45474A;
+        }
+    }
+}
