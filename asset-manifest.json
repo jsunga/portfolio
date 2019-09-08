@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9ed3115e.chunk.css",
-    "main.js": "/portfolio/static/js/main.9b031b7b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.9b031b7b.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.815a73de.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.815a73de.chunk.js.map",
     "runtime~main.js": "/portfolio/static/js/runtime~main.ed209e06.js",
     "runtime~main.js.map": "/portfolio/static/js/runtime~main.ed209e06.js.map",
     "static/js/2.62c9b7f2.chunk.js": "/portfolio/static/js/2.62c9b7f2.chunk.js",
     "static/js/2.62c9b7f2.chunk.js.map": "/portfolio/static/js/2.62c9b7f2.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.0c606d53de192a0f0415274e65ebc686.js": "/portfolio/precache-manifest.0c606d53de192a0f0415274e65ebc686.js",
+    "precache-manifest.bdce1aefbed144c295f9952c1bc420ad.js": "/portfolio/precache-manifest.bdce1aefbed144c295f9952c1bc420ad.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.9ed3115e.chunk.css.map": "/portfolio/static/css/main.9ed3115e.chunk.css.map",
     "static/media/apples.png": "/portfolio/static/media/apples.66728bfe.png",
@@ -16,7 +16,7 @@
     "static/media/eye.png": "/portfolio/static/media/eye.73a63b97.png",
     "static/media/foodie.png": "/portfolio/static/media/foodie.160d1821.png",
     "static/media/skyla.jpg": "/portfolio/static/media/skyla.40386b1b.jpg",
-    "static/media/twitter.png": "/portfolio/static/media/twitter.39a338be.png",
+    "static/media/twitter.png": "/portfolio/static/media/twitter.9d420c52.png",
     "static/media/zellow.png": "/portfolio/static/media/zellow.7b64ea30.png"
   }
 }
