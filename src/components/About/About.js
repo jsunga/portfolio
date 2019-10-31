@@ -11,7 +11,7 @@ const skills = [
     {type: "Node.js", level: 80},
     {type: "Python", level: 70},
     {type: "Django", level: 60},
-    {type: "SQL", level: 80},
+    {type: "SQL", level: 65},
 ]
 
 const colors = {

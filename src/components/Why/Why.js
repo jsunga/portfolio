@@ -10,7 +10,7 @@ const Why = () => {
         <div className='why' id='why'>
             <h1 className='about-title wow fadeInLeft'>Why work with me?</h1><span className='underline wow fadeIn' data-wow-duration='2s' data-wow-delay='.5s'/>
             <main>
-                <section className='wow fadeInUp'>
+                <section className='wow fadeIn'>
                     <div className='image-container'><img src={code} alt='icon' /></div>
                     <h2>Passionate about development</h2>
                     <p>
@@ -18,7 +18,7 @@ const Why = () => {
                         work is done by passionate people.
                     </p>
                 </section>
-                <section className='wow fadeInUp' data-wow-delay='.2s'>
+                <section className='wow fadeIn' data-wow-delay='.2s'>
                     <div className='image-container'><img src={learn} alt='icon' /></div>
                     <h2>Quick Learner</h2>
                     <p>
@@ -27,7 +27,7 @@ const Why = () => {
                         environments.
                     </p>
                 </section>
-                <section className='wow fadeInUp' data-wow-delay='.4s'>
+                <section className='wow fadeIn' data-wow-delay='.4s'>
                     <div className='image-container'><img src={adapt} alt='icon' /></div>
                     <h2>Adaptable</h2>
                     <p>
